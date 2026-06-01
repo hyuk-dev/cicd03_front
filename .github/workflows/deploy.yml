@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4  # Node.js 환경 설정
         with:
-          node-version: 20   # Node.js 20버전 설치
+          node-version: 20   # Node.js 20버전 설치.
 
       - name: Install dependencies
         run: npm install  # React 프로젝트의 의존성 설치
